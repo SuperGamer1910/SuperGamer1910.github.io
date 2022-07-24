@@ -1,0 +1,119 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin-top: 3rem;
+      margin-left: 3rem;
+      background-image: url(../img/Space.jpg);
+      font-size: 20px;
+      color: #0CABA8;
+      background: repeating-linear-gradient(
+        45deg, 
+        #3f87a6, 
+        cyan 13%,
+        #ffeeff 17%);
+  }
+  .wrapper {
+      width: 80%;
+      margin: 0 auto;
+      padding: 1em;
+      display: flex;
+      flex-flow: row nowrap;
+      background-color: white;
+      border: 10px groove #0CABA8 ;
+  }
+  
+  h1{
+      font-family: 'Edu NSW ACT Foundation', Arial, Helvetica, sans-serif;
+      font-size: 47px;
+  }
+  
+  p {
+      margin-bottom: 0;
+      margin-top: 2rem;
+  }
+  section {
+      flex-basis: 57%;
+      margin-right: 10%;
+  }
+  aside {
+      flex-basis: 33%;
+  }
+  
+  legend{
+      font-size: 32px;
+      padding: 1rem;
+      font-family: 'Indie Flower', Arial, Helvetica, sans-serif;
+      font-weight: bold;
+  
+  }
+  
+  input{
+      margin:10px;
+      padding: 7px;
+  }
+  
+  label{
+      font-size: 25px;
+  }
+  
+  .date{
+      font-size: 12px; 
+  
+  }	
+  
+  .UFOs{
+      padding: 2rem;
+  }
+  
+  .InputD{
+      margin-top: 0.4rem;
+  }
+  
+  .Select{
+      padding: 2px;
+  }
+  
+  .Comments{
+      margin-top:1rem;
+      padding: 0.4rem;
+  }
+  
+  .textarea{
+      padding: 0.2rem;
+      margin-left: 11rem;
+  
+  }
+  
+  button{
+      color:cyan;
+      margin-top: 35px;
+      background-color:mainlight;
+      border: 1px solid cyan;
+      border-radius: 20px;
+      width: 90px;
+      height: 50px;
+      text-shadow: cyan 0px 0px 20px;
+      box-shadow: rgb(95, 240, 208, 15%)  0px 0px 50px;
+      font-size: 1.5rem;
+  }
+  
+  .subscribe{
+      padding-top: -2rem;
+  }
+  
+  button:hover {
+      color: white ;
+      background-color: cyan;
+      cursor: pointer;
+      box-shadow: cyan 0px 0px 50px;
+  }
+  
+  address{
+      margin-left: 1.2rem;
+  }
+  
